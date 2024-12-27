@@ -11,9 +11,8 @@ int main(int argc, char** argv)
 	auto app = Engine::CreateApplication(); 
 
 	Engine::Log::Init();
-	EG_CORE_WARN("Initialised Core Logger");
-	int a = 5;
-	EG_CLIENT_INFO("Initialised Client Logger, Var = {0}", a);
+	EG_CORE_WARN("Initialised Core Logger: SUCCESS");
+	EG_CLIENT_INFO("Initialised Client Logger: SUCCESS");
 
 	app->Run();
 	delete app;

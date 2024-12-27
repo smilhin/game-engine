@@ -6,7 +6,7 @@ class GameApp : public Engine::Application
 public:
 	GameApp()
 	{
-
+		
 	}
 	~GameApp()
 	{
