@@ -4,7 +4,6 @@
 #include "Event.h"
 
 
-
 namespace Engine {
 
 	class ENGINE_API WindowResizeEvent : public Event
