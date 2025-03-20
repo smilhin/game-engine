@@ -18,7 +18,7 @@ namespace Engine {
 		{
 			std::stringstream ss;
 			ss << "MouseMovedEvent: " << m_MouseX << ", " << m_MouseY;
-			return ss.str();
+			return ss.str(); 
 		}
 
 		EVENT_CLASS_TYPE(MouseMoved)

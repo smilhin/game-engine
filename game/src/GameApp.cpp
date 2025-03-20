@@ -17,6 +17,7 @@ public:
 
 	void OnEvent(Engine::Event& event) override
 	{
+		if (event.GetEventType() != Engine::EventType::MouseMoved)
 		EG_TRACE("{0}", event.ToString());
 	}
 };

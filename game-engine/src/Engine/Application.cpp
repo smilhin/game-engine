@@ -34,6 +34,7 @@ namespace Engine {
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
 
+		if(e.GetEventType() != EventType::MouseMoved)
 		EG_CORE_TRACE("Event: {0}", e.ToString());
 
 		for (auto it = m_LayerStack.end(); it != m_LayerStack.begin(); )
